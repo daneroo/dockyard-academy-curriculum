@@ -121,7 +121,9 @@ Livebook may change this UI, so if this is instruction is no longer accurate ple
 
 Create an Elixir code cell below. Run some Elixir code such as `1 + 2` in the cell.
 
-<!-- livebook:{"break_markdown":true} -->
+```elixir
+1+2
+```
 
 ### Livebook Shortcuts
 
@@ -153,7 +155,7 @@ to see the Markdown content inside.
 
 <div style="padding: 1rem;background-color:lightgray; text-align: center;">
 
-### Click Me Then Press Edit<i Class="ri-pencil-line"></i>
+### Click Me Then Press Edit...<i Class="ri-pencil-line"></i>
 
 </div>
 
@@ -235,7 +237,7 @@ If you cannot format an Elixir cell, you can use this as a clue that you have a 
 code is invalid. Notice that you cannot use <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>I</kbd> to format the code.
 
 ```elixir
-          1 +
+1 + 13
 ```
 
 ## Commit Your Progress
