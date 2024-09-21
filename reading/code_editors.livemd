@@ -326,6 +326,7 @@ Run `git status` to ensure there are no undesirable changes.
 Then run the following in your command line from the `curriculum` folder to commit your progress.
 
 ```
+$ git status
 $ git add .
 $ git commit -m "finish Code Editors reading"
 $ git push
